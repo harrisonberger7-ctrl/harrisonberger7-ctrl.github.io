@@ -1,0 +1,43 @@
+{
+  "projects": [
+    {
+      "id": "mach-001",
+      "category": "machining",
+      "title": "Precision Instrument Mount (placeholder)",
+      "summary": "A small precision mount produced for lab instrumentation; demonstrates multi-axis milling, tight tolerances, and finish work.",
+      "material": "6061-T6 Aluminum",
+      "processes": "3-axis CNC milling, finishing, deburring",
+      "equipment": "HAAS VF-2, Bridgeport for finishing",
+      "tolerances": "+/- 0.005 in",
+      "role": "Design for manufacture, CAM programming, machining, QA",
+      "images": ["/assets/images/project1.svg"],
+      "notes": "Includes CAD model and engineering drawing (replace with sanitized files before publishing)."
+    },
+    {
+      "id": "mach-002",
+      "category": "machining",
+      "title": "Custom Optical Mount (placeholder)",
+      "summary": "Round mount with precision bores and press-fit features used in optical test rig.",
+      "material": "304 Stainless Steel",
+      "processes": "Turning, boring, honing",
+      "equipment": "CNC lathe, manual lathe",
+      "tolerances": "+/- 0.002 in (bores)",
+      "role": "CNC operation, inspection",
+      "images": ["/assets/images/project2.svg"],
+      "notes": "Check drawings for any proprietary references prior to publishing."
+    },
+    {
+      "id": "eng-001",
+      "category": "engineering",
+      "title": "Aero Control Surface Study (placeholder)",
+      "summary": "Academic project studying control surface actuation loads and optimization.",
+      "material": "Composite (study)",
+      "processes": "Finite element analysis, CAD modeling",
+      "equipment": "Lab test rig",
+      "tolerances": "N/A",
+      "role": "CAD, analysis, testing",
+      "images": ["/assets/images/project3.svg"],
+      "notes": "Include analysis reports and sanitized CAD as PDFs or images."
+    }
+  ]
+}
