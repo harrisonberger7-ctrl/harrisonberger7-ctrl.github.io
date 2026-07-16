@@ -57,3 +57,26 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
   nav ul{display:none}
   #nav-toggle{display:inline-block}
 }
+/* Scholarship Speech */
+
+.speech-section {
+    text-align: center;
+    margin: 80px auto;
+}
+
+.speech-description {
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.video-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 12px;
+}
