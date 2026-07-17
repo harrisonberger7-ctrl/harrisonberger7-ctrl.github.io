@@ -83,6 +83,9 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     border: none;
     border-radius: 12px;
 }
-.dolly-card {
-    height: 65px;
+.dolly-card img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
 }
