@@ -89,9 +89,8 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
 }
 
 .dolly-images img {
-    flex: 1;
     width: 50%;
-    height: 300px;
+    height: 400px;
     object-fit: cover;
     border-radius: 4px;
 }
