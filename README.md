@@ -5,7 +5,7 @@ This repository is scaffolded as a user site (harrisonberger7-ctrl.github.io) an
 What I added
 - A complete, editable site scaffold using HTML, CSS, and vanilla JavaScript.
 - Pages: index.html, about.html, projects (machining, engineering, buckeye), and assets (CSS/JS/images).
-- A simple JSON-based project data file at _data/projects.json so you can add projects by editing structured data.
+- A simple JSON-based project data file at data/projects.json so you can add projects by editing structured data.
 - Placeholder SVG images and a placeholder resume file (replace with your real resume PDF named `placeholder-resume.pdf` or update the link in the pages).
 - README with setup and editing instructions (this file).
 
@@ -16,12 +16,12 @@ Quick start — publish the site
 
 Editing instructions — overview
 - Replace placeholder images in `assets/images/` with your finished-part photographs, CAD renderings, toolpath images, and a professional headshot. Keep filenames or update references in the HTML/JSON.
-- Update `_data/projects.json` to add or edit projects. Each project object supports fields used by the site (id, category, title, summary, material, processes, equipment, tolerances, role, images, notes).
+- Update `data/projects.json` to add or edit projects. Each project object supports fields used by the site (id, category, title, summary, material, processes, equipment, tolerances, role, images, notes).
 - Replace `resume/placeholder-resume.pdf` with your real résumé file (same filename recommended).
 - Edit `about.html` to update education, timeline, and experience details. The HTML is simple and commented for easy changes.
 
 How to add a new project (JSON method)
-1. Open `_data/projects.json` and add a new object to the `projects` array. Example:
+1. Open `data/projects.json` and add a new object to the `projects` array. Example:
 
   {
     "id": "mach-003",

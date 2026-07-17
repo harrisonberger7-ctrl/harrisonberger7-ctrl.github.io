@@ -1,5 +1,5 @@
 // Main JS: keyboard nav, smooth scroll, load projects from JSON and render cards/modals
-// Comments explain how to add new projects via _data/projects.json
+// Comments explain how to add new projects via data/projects.json
 
 document.addEventListener('DOMContentLoaded',function(){
   // Insert current year in footers
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded',function(){
   });
 
   // Load project data and render featured, machining, and engineering cards
-  fetch('./_data/projects.json').then(r=>{
+  fetch('/data/projects.json').then(r=>{
     if(!r.ok) throw new Error("Couldn't load projects.json");
     return r.json();
   }).then(data=>{
