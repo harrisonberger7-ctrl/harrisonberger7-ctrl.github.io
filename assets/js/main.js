@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded',function(){
   });
 
   // Load project data and render featured, machining, and engineering cards
-  fetch('/_data/projects.json').then(r=>{
-    if(!r.ok) throw new Error('Couldn't load projects.json');
+  fetch('./_data/projects.json').then(r=>{
+    if(!r.ok) throw new Error("Couldn't load projects.json");
     return r.json();
   }).then(data=>{
     renderFeatured(data);
