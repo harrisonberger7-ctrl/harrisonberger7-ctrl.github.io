@@ -320,6 +320,4 @@ p { line-height: 1.72; }
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
 
-.dolly-card {
-    height: 260px;
-}
+
