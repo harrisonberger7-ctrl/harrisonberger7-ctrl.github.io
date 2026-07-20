@@ -5,7 +5,7 @@
 :root {
   --water-bottle-blue: #2476a8;
   --water-bottle-blue-dark: #174c70;
-  --water-bottle-blue-light: #eaf5fb;
+  --water-bottle-blue-light: #9cc9e2;
   --water-bottle-border: rgba(107, 116, 124, 0.274);
   --water-bottle-shadow: 0 20px 50px rgba(107, 116, 124, 0.274);
 
@@ -783,4 +783,16 @@
 
 .project-section.project-section-alt {
     background: #eef4f8;
+}
+
+body {
+  background: #e8f1f5;
+}
+
+.project-section {
+  background: #f7fafc;
+}
+
+.project-section-alt {
+  background: #dce9ef;
 }
