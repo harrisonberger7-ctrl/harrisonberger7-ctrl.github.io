@@ -10,6 +10,7 @@
   <header class="site-header">
     <div class="container">
       <div class="brand"><a href="/">Harrison Berger</a></div>
+
       <nav aria-label="Main navigation">
         <ul>
           <li><a href="/">Home</a></li>
@@ -23,44 +24,97 @@
 
   <main class="container">
     <h1>Engineering Projects</h1>
-    <p class="intro">Academic, independent, and professional engineering project templates. Click a project to view details.</p>
-    <div class="cards-grid">
 
-  <article class="dolly-card">
-
-  <div class="dolly-images">
-    <img src="/assets/images/showcase-upright.jpeg"
-         alt="Tri-Wheel Dolly (Upright)">
-
-    <img src="/assets/images/showcase-horizontal.jpeg"
-         alt="Tri-Wheel Dolly (Horizontal)">
-</div>
-
-    <h2>Tri-Wheel Dolly</h2>
-
-    <p>
-      A folding material-handling dolly designed in Onshape and
-      manufactured using CNC milling.
+    <p class="intro">
+      Academic, independent, and professional engineering projects.
+      Select a project to view its design process, documentation, testing,
+      and final results.
     </p>
 
-    <a class="btn" href="/projects/dolly.html">
-      View Dolly Project
-    </a>
-  </article>
+    <div class="cards-grid">
 
-</div>
+      <!-- Tri-Wheel Dolly -->
+      <article class="dolly-card">
 
-    <div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="dolly-images">
+          <img
+            src="/assets/images/showcase-upright.jpeg"
+            alt="Tri-Wheel Dolly standing in its upright configuration"
+            loading="lazy"
+          >
+
+          <img
+            src="/assets/images/showcase-horizontal.jpeg"
+            alt="Tri-Wheel Dolly opened in its horizontal configuration"
+            loading="lazy"
+          >
+        </div>
+
+        <h2>Tri-Wheel Dolly</h2>
+
+        <p>
+          A folding material-handling dolly designed in Onshape and
+          manufactured using CNC milling. The project includes CAD design,
+          engineering drawings, machining documentation, assembly, and
+          weighted testing.
+        </p>
+
+        <a class="btn" href="/projects/dolly.html">
+          View Dolly Project
+        </a>
+      </article>
+
+      <!-- Smart Water Bottle -->
+      <article class="dolly-card smart-water-bottle-card">
+
+        <div class="dolly-images">
+          <img
+            src="/assets/images/smart-water-bottle-finished.jpeg"
+            alt="Completed Smart Water Bottle prototype with Arduino electronics, LCD, pump, tubing, and sensors"
+            loading="lazy"
+          >
+
+          <img
+            src="/assets/images/smart-water-bottle-cad.png"
+            alt="CAD rendering of the Smart Water Bottle enclosure and internal component layout"
+            loading="lazy"
+          >
+        </div>
+
+        <h2>Smart Water Bottle</h2>
+
+        <p>
+          An Arduino-powered water-dispensing prototype developed to improve
+          accessibility for elderly and disabled users. The system monitors
+          water level and temperature, displays live information on an LCD,
+          and provides variable pump control through an analog joystick.
+        </p>
+
+        <a class="btn" href="/smart-water-bottle.html">
+          View Smart Water Bottle Project
+        </a>
+      </article>
+
+    </div>
+
+    <div
+      id="project-modal"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-hidden="true"
+    >
       <div class="modal-content" role="document">
         <button class="modal-close" aria-label="Close">Close</button>
         <div id="modal-body"></div>
       </div>
     </div>
-
   </main>
+
   <footer class="site-footer container">
     <p>&copy; Harrison Berger — <span id="year-4"></span></p>
   </footer>
+
   <script src="/assets/js/main.js"></script>
 </body>
 </html>
