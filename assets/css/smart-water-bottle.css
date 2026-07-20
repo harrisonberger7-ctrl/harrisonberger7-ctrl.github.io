@@ -777,3 +777,10 @@
   }
 
 }
+.project-section {
+    background: #ffffff;
+}
+
+.project-section.project-section-alt {
+    background: #eef4f8;
+}
