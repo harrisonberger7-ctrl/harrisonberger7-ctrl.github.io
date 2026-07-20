@@ -8,6 +8,8 @@
   --water-bottle-blue-light: #eaf5fb;
   --water-bottle-border: rgba(20, 50, 70, 0.14);
   --water-bottle-shadow: 0 20px 50px rgba(17, 38, 55, 0.12);
+
+  --water-bottle-text: #263943;
 }
 
 /* =====================================================
@@ -16,6 +18,7 @@
 
 .project-section {
   padding: 5rem 0;
+  color: var(--water-bottle-text);
 }
 
 .project-section-alt {
@@ -40,7 +43,7 @@
 }
 
 .section-heading p {
-  color: #2d3b45;
+  color: #2b3f4b;
   line-height: 1.75;
   font-weight: 500;
 }
@@ -48,9 +51,9 @@
 .section-kicker,
 .project-eyebrow {
   margin: 0;
-  color: var(--water-bottle-blue);
+  color: #125b85;
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 0.13em;
   text-transform: uppercase;
 }
@@ -86,7 +89,9 @@
 
 .water-bottle-hero-copy h1 {
   margin: 0.6rem 0 1.25rem;
+  color: #102f43;
   font-size: clamp(3rem, 7vw, 5.8rem);
+  font-weight: 800;
   line-height: 0.98;
   letter-spacing: -0.045em;
 }
@@ -94,7 +99,9 @@
 .project-lead {
   max-width: 660px;
   margin-bottom: 2rem;
+  color: #243b49;
   font-size: 1.15rem;
+  font-weight: 500;
   line-height: 1.75;
 }
 
@@ -187,7 +194,7 @@
 .project-fact-label {
   display: block;
   margin-bottom: 0.35rem;
-  color: #2d3b45;
+  color: #43545e;
   font-size: 0.74rem;
   font-weight: 800;
 }
@@ -204,7 +211,7 @@
 }
 
 .overview-copy {
-  color: #27343d;
+  color: #263943;
   font-size: 1.08rem;
   line-height: 1.85;
 }
@@ -223,6 +230,8 @@
 .prototype-description-card h3,
 .code-note h3 {
   margin-top: 0;
+  color: var(--water-bottle-blue-dark);
+  font-weight: 800;
 }
 
 .check-list,
@@ -313,7 +322,7 @@
 }
 
 .prototype-description-card p {
-  color: #27343d;
+  color: #263943;
   line-height: 1.75;
 }
 
@@ -351,19 +360,21 @@
 .system-number {
   display: block;
   margin-bottom: 1.3rem;
-  color: var(--water-bottle-blue);
+  color: #0f628f;
   font-size: 2.3rem;
   font-weight: 900;
-  opacity: 0.55;
+  opacity: 1;
 }
 
 .system-flow-card h3 {
   margin: 0 0 0.75rem;
+  color: var(--water-bottle-blue-dark);
+  font-weight: 800;
 }
 
 .system-flow-card p {
   margin-bottom: 0;
-  color: #2b3842;
+  color: #263943;
   line-height: 1.65;
 }
 
@@ -399,7 +410,7 @@
 
 .component-card p {
   margin-bottom: 0;
-  color: #2b3842;
+  color: #263943;
   line-height: 1.6;
 }
 
@@ -423,14 +434,14 @@
 .software-card code {
   display: inline-block;
   margin-bottom: 0.85rem;
-  color: var(--water-bottle-blue-dark);
+  color: #0c5278;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .software-card p {
   margin: 0;
-  color: #2b3842;
+  color: #263943;
   line-height: 1.65;
 }
 
@@ -489,7 +500,7 @@
 
 .cad-details p {
   margin-bottom: 0;
-  color: #2b3842;
+  color: #263943;
   line-height: 1.65;
 }
 /* =====================================================
