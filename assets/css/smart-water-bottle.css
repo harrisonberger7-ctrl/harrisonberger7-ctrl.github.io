@@ -40,7 +40,9 @@
 }
 
 .section-heading p {
+  color: #2d3b45;
   line-height: 1.75;
+  font-weight: 500;
 }
 
 .section-kicker,
@@ -185,11 +187,9 @@
 .project-fact-label {
   display: block;
   margin-bottom: 0.35rem;
-  color: #66737d;
+  color: #2d3b45;
   font-size: 0.74rem;
   font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
 
 /* =====================================================
@@ -204,6 +204,7 @@
 }
 
 .overview-copy {
+  color: #27343d;
   font-size: 1.08rem;
   line-height: 1.85;
 }
@@ -257,6 +258,10 @@
   background: var(--water-bottle-blue);
   content: "";
 }
+.water-bottle-hero-copy h1 {
+    color: #163b56;
+    text-shadow: 0 2px 6px rgba(255,255,255,0.45);
+}
 
 /* =====================================================
    VIDEO
@@ -308,6 +313,7 @@
 }
 
 .prototype-description-card p {
+  color: #27343d;
   line-height: 1.75;
 }
 
@@ -357,6 +363,7 @@
 
 .system-flow-card p {
   margin-bottom: 0;
+  color: #2b3842;
   line-height: 1.65;
 }
 
@@ -392,6 +399,7 @@
 
 .component-card p {
   margin-bottom: 0;
+  color: #2b3842;
   line-height: 1.6;
 }
 
@@ -422,6 +430,7 @@
 
 .software-card p {
   margin: 0;
+  color: #2b3842;
   line-height: 1.65;
 }
 
@@ -480,9 +489,9 @@
 
 .cad-details p {
   margin-bottom: 0;
+  color: #2b3842;
   line-height: 1.65;
 }
-
 /* =====================================================
    CHALLENGES AND IMPROVEMENTS
 ===================================================== */
