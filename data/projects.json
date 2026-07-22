@@ -3,15 +3,15 @@
     {
       "id": "mach-001",
       "category": "machining",
-      "title": "Precision Instrument Mount (placeholder)",
-      "summary": "A small precision mount produced for lab instrumentation; demonstrates multi-axis milling, tight tolerances, and finish work.",
-      "material": "6061-T6 Aluminum",
+      "title": "Air Motor",
+      "summary": "A personal project sourced from the College of Mechanical Engineering & Aerospace Engineering machine shop machining curriculum",
+      "material": "Aluminum, Brass, Tool Steel, Stainless steel",
       "processes": "3-axis CNC milling, finishing, deburring",
-      "equipment": "HAAS VF-2, Bridgeport for finishing",
-      "tolerances": "+/- 0.005 in",
+      "equipment": "HAAS VF-2 Mill, Clausing Manual Lathe",
+      "tolerances": "+/- 0.0005 in",
       "role": "Design for manufacture, CAM programming, machining, QA",
-      "images": ["/assets/images/project1.svg"],
-      "notes": "Includes CAD model and engineering drawing (replace with sanitized files before publishing)."
+      "images": ["/assets/images/Air_Motor_Working.gif"],
+      "notes": "CAD Models and Blueprints propietary to OSU"
     },
     {
       "id": "mach-002",
