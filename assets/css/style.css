@@ -162,5 +162,5 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     }
 }
 #featured-cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1.1fr);
 }
