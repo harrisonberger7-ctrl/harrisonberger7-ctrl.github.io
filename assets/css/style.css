@@ -138,7 +138,7 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
 
 #featured-cards .featured-media {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 2 / 3;
     overflow: hidden;
     border-radius: 4px;
 }
@@ -162,5 +162,5 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     }
 }
 #featured-cards {
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1.25fr));
+    grid-template-columns: repeat(3, 1fr);
 }
