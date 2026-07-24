@@ -118,3 +118,7 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     object-fit: cover;
     border-radius: 4px;
 }
+#machining-grid .card img {
+    height: 500px;
+    object-fit: cover;
+}
