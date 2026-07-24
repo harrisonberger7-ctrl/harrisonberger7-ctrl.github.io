@@ -119,7 +119,9 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     border-radius: 4px;
 }
 #machining-grid .card img {
-    height: 400px;
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
