@@ -85,7 +85,38 @@ document.addEventListener('DOMContentLoaded',function(){
     projects.forEach(p=>{
       const card=document.createElement('article');
       card.className='card';
-      card.innerHTML = `\n        <img src="${p.images?.[0]||'/assets/images/project-placeholder.svg'}" alt="${escapeHtml(p.title)} image"/>\n        <h3>${escapeHtml(p.title)}</h3>\n        <p class="small">${escapeHtml(p.material||'')}</p>\n        <p><button class="btn" data-id="${p.id}">View details</button></p>\n      `;
+
+
+      const projectMedia = p.id === 'mach-001'
+  ? `
+    <div class="air-motor-media">
+      <model-viewer
+        class="air-motor-model"
+        src="/assets/Portfolio_Air_Motor.glb"
+        alt="Interactive 3D model of the air motor"
+        camera-controls
+        auto-rotate
+        shadow-intensity="1">
+      </model-viewer>
+
+      <img
+        src="${p.images?.[0]}"
+        alt="${escapeHtml(p.title)} operating animation">
+    </div>
+  `
+  : `
+    <img
+      src="${p.images?.[0] || '/assets/images/project-placeholder.svg'}"
+      alt="${escapeHtml(p.title)} image">
+  `;
+
+card.innerHTML = `
+  ${projectMedia}
+  <h3>${escapeHtml(p.title)}</h3>
+  <p class="small">${escapeHtml(p.material || '')}</p>
+  <p><button class="btn" data-id="${p.id}">View details</button></p>
+`;
+
       container.appendChild(card);
       card.querySelector('button')?.addEventListener('click',()=>openModal(p));
     });
