@@ -168,12 +168,10 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     display: inline-block;
     background: var(--accent);
     color: white;
-    padding: 10px 16px;
-    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
 }
-
-#contact a:hover {
-    opacity: 0.9;
 }
