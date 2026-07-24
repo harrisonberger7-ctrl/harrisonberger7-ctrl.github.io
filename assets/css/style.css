@@ -164,16 +164,10 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
 #featured-cards {
     grid-template-columns: repeat(3, 1.1fr);
 }
-#contact a {
-    display: inline-flex;
-    width: fit-content;
-    align-self: flex-start;
-    background: var(--accent);
-    color: white;
+#contact .contact-list li a {
+    display: inline-block;
     padding: 1px 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 500;
-}
+    font-size: 0.85rem;
+    line-height: 1.2;
+    border-radius: 4px;
 }
