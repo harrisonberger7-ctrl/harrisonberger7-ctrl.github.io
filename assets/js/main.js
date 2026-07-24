@@ -68,11 +68,13 @@ document.addEventListener('DOMContentLoaded',function(){
     if(!container) return;
     const featured = data.projects.slice(0,3);
     featured.forEach(p=>{
+      const media = p.video
+  ? `<iframe src="${p.video}" title="${escapeHtml(p.title)} demonstration" allowfullscreen></iframe>`
+  : `<img src="${p.images?.[0]||'/assets/images/project-placeholder.svg'}" alt="${escapeHtml(p.title)}"/>`;
       const card=document.createElement('article');
       card.className='card';
-      card.innerHTML = `\n        <img src="${p.images?.[0]||'/assets/images/project-placeholder.svg'}" alt="${escapeHtml(p.title)}"/>\n        <h3>${escapeHtml(p.title)}</h3>\n        <p class="small">${escapeHtml(p.summary || '')}</p>\n        <p><button class="btn" data-id="${p.id}">View</button></p>\n      `;
+      card.innerHTML = `\n        <div class="featured-media">${media}</div>\n        <h3>${escapeHtml(p.title)}</h3>\n        <p class="small">${escapeHtml(p.summary || '')}</p>\n        <p><a class="btn" href="${p.detailsPage || '#'}">View Details</a></p>\n      `;
       container.appendChild(card);
-      card.querySelector('button')?.addEventListener('click',()=>openModal(p));
     });
   }
 

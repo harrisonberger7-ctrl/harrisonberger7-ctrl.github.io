@@ -125,3 +125,39 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     height: auto;
     margin: 0 auto;
 }
+/* Featured Work cards */
+#featured-cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+}
+
+#featured-cards .card {
+    display: flex;
+    flex-direction: column;
+}
+
+#featured-cards .featured-media {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+#featured-cards .featured-media img,
+#featured-cards .featured-media iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+    object-fit: cover;
+}
+
+#featured-cards .card > p:last-child {
+    margin-top: auto;
+}
+
+@media (max-width: 800px) {
+    #featured-cards {
+        grid-template-columns: 1fr;
+    }
+}

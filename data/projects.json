@@ -1,5 +1,13 @@
 {
   "projects": [
+{
+  "id": "eng-dolly",
+  "category": "engineering",
+  "title": "Machined Dolly",
+  "summary": "Design, machining, assembly, and demonstration of a custom mechanical dolly.",
+  "video": "https://www.youtube.com/embed/YOUR_DOLLY_VIDEO_ID",
+  "detailsPage": "/projects/dolly.html"
+},
     {
       "id": "mach-001",
       "category": "machining",
@@ -11,33 +19,17 @@
       "tolerances": "+/- 0.0005 in",
       "role": "Design for manufacture, CAM programming, machining, QA",
       "images": ["/assets/images/Air_Motor_Working.gif"],
-      "notes": "CAD Models and Blueprints propietary to OSU"
+      "notes": "CAD Models and Blueprints propietary to OSU",
+      "detailsPage": "/projects/machining.html"
     },
-    {
-      "id": "mach-002",
-      "category": "machining",
-      "title": "Custom Optical Mount (placeholder)",
-      "summary": "Round mount with precision bores and press-fit features used in optical test rig.",
-      "material": "304 Stainless Steel",
-      "processes": "Turning, boring, honing",
-      "equipment": "CNC lathe, manual lathe",
-      "tolerances": "+/- 0.002 in (bores)",
-      "role": "CNC operation, inspection",
-      "images": ["/assets/images/project2.svg"],
-      "notes": "Check drawings for any proprietary references prior to publishing."
-    },
-    {
-      "id": "eng-001",
+
+        {
+      "id": "eng-water-bottle",
       "category": "engineering",
-      "title": "Aero Control Surface Study (placeholder)",
-      "summary": "Academic project studying control surface actuation loads and optimization.",
-      "material": "Composite (study)",
-      "processes": "Finite element analysis, CAD modeling",
-      "equipment": "Lab test rig",
-      "tolerances": "N/A",
-      "role": "CAD, analysis, testing",
-      "images": ["/assets/images/project3.svg"],
-      "notes": "Include analysis reports and sanitized CAD as PDFs or images."
+      "title": "Smart Water Bottle",
+      "summary": "Arduino-based smart water bottle featuring an LCD display and electronic sensing components.",
+      "video": "https://www.youtube.com/embed/7WF9dTOJ-Cs",
+      "detailsPage": "/projects/smart-water-bottle.html"
     }
   ]
 }
