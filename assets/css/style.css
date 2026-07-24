@@ -165,11 +165,12 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     grid-template-columns: repeat(3, 1.1fr);
 }
 #contact a {
-    display: inline-block;
+    display: inline-flex;
+    width: fit-content;
+    align-self: flex-start;
     background: var(--accent);
     color: white;
-    padding: 4px 10px;
-    font-size: 0.9rem;
+    padding: 3px 8px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
