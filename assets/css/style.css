@@ -170,9 +170,10 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     align-self: flex-start;
     background: var(--accent);
     color: white;
-    padding: 3px 8px;
+    padding: 1px 5px;
     border-radius: 5px;
     text-decoration: none;
+    font-size: 0.9rem;
     font-weight: 500;
 }
 }
