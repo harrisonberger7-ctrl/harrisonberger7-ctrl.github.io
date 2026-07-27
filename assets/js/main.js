@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded',function(){
     <div class="air-motor-media">
       <model-viewer
         class="air-motor-model"
-        src="/assets/Portfolio_Air_Motor.glb"
+        src="/assets/images/Air_Motor_Content/Portfolio_Air_Motor.glb"
         alt="Interactive 3D model of the air motor"
         camera-controls
         auto-rotate

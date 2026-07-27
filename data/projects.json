@@ -18,7 +18,7 @@
       "equipment": "HAAS VF-2 Mill, Clausing Manual Lathe",
       "tolerances": "+/- 0.0005 in",
       "role": "Design for manufacture, CAM programming, machining, QA",
-      "images": ["/assets/images/Air_Motor_Working.gif"],
+      "images": ["/assets/images/Air_Motor_Content/Air_Motor_Working.gif"],
       "notes": "CAD Models and Blueprints propietary to OSU",
       "detailsPage": "/projects/machining.html"
     },
