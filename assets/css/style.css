@@ -457,3 +457,25 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
         font-size: 0.88rem;
     }
 }
+/* Secondary button */
+.btn-secondary {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    background: #1f3a5f;      /* Deep navy */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid #1f3a5f;
+    transition: all 0.25s ease;
+}
+
+.btn-secondary:hover {
+    background: #2b4f7c;
+    border-color: #2b4f7c;
+    transform: translateY(-2px);
+}
+
+.btn-secondary:active {
+    transform: translateY(0);
+}
