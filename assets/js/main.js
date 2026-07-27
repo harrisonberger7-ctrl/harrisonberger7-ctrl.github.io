@@ -289,15 +289,6 @@ function renderMachiningProjects(container, projects) {
             </figcaption>
           </figure>
 
-          <figure class="slideshow-slide">
-            <img
-              src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Roughed.jpeg"
-              alt="Titan-76M during operation 2 rough machining">
-
-            <figcaption>
-              3. Operation 2 rough-machined condition
-            </figcaption>
-          </figure>
 
           <figure class="slideshow-slide">
             <video
@@ -311,7 +302,18 @@ function renderMachiningProjects(container, projects) {
             </video>
 
             <figcaption>
-              4. Operation 2 rough machining
+              3. Operation 2 rough machining
+            </figcaption>
+          </figure>
+
+
+          <figure class="slideshow-slide">
+            <img
+              src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Roughed.jpeg"
+              alt="Titan-76M during operation 2 rough machining">
+
+            <figcaption>
+              4. Operation 2 rough-machined condition
             </figcaption>
           </figure>
 
