@@ -269,8 +269,8 @@ function renderMachiningProjects(container, projects) {
               preload="metadata"
               playsinline>
               <source
-                src="/assets/images/Titan-76M-Content/Titan_76M_OP1_Roughing_Video.MP4"
-                type="video/quicktime">
+                src="/assets/images/Titan-76M-Content/Titan_76M_OP1_Roughing_Video.mp4"
+                type="video/mp4">
               Your browser does not support this video.
             </video>
 
@@ -305,8 +305,8 @@ function renderMachiningProjects(container, projects) {
               preload="metadata"
               playsinline>
               <source
-                src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Roughing_Video.MP4"
-                type="video/quicktime">
+                src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Roughing_Video.mp4"
+                type="video/mp4">
               Your browser does not support this video.
             </video>
 
@@ -415,8 +415,8 @@ function renderMachiningProjects(container, projects) {
               preload="metadata"
               playsinline>
               <source
-                src="/assets/images/Shop-Sign-Content/ASC_Machine_Shop_Sign_OP2_Rough_Video.MP4"
-                type="video/quicktime">
+                src="/assets/images/Shop-Sign-Content/ASC_Machine_Shop_Sign_OP2_Rough_Video.mp4"
+                type="video/mp4">
               Your browser does not support this video.
             </video>
 
@@ -441,8 +441,8 @@ function renderMachiningProjects(container, projects) {
               preload="metadata"
               playsinline>
               <source
-                src="/assets/images/Shop-Sign-Content/ASC_Machine_Shop_Sign_OP2_Semi_Finish_Video.MP4"
-                type="video/quicktime">
+                src="/assets/images/Shop-Sign-Content/ASC_Machine_Shop_Sign_OP2_Semi_Finish_Video.mp4"
+                type="video/mp4">
               Your browser does not support this video.
             </video>
 
@@ -457,8 +457,8 @@ function renderMachiningProjects(container, projects) {
               preload="metadata"
               playsinline>
               <source
-                src="/assets/images/Shop-Sign-Content/ASC_Machine_Shop_Sign_OP2_Finished_Video.MP4"
-                type="video/quicktime">
+                src="/assets/images/Shop-Sign-Content/ASC_Machine_Shop_Sign_OP2_Finished_Video.mp4"
+                type="video/mp4">
               Your browser does not support this video.
             </video>
 
