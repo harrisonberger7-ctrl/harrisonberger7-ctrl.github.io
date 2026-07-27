@@ -471,7 +471,7 @@ function renderMachiningProjects(container, projects) {
 
           <figure class="slideshow-slide">
             <img
-              src="/assets/images/Shop-Sign-Content/ASC_Machine_Shop_Sign.jpg"
+              src="/assets/images/Shop-Sign-Content/ASC_MAchine_Shop_Sign.jpg"
               alt="Completed Arts and Sciences Machine Shop sign">
 
             <figcaption>
