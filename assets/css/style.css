@@ -151,6 +151,9 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     #machining-grid .air-motor-media {
         grid-template-columns: 1fr;
     }
+    #machining-grid .machining-model-slideshow-row {
+    grid-template-columns: 1fr;
+}
 }
 
 /* Featured Work cards */
@@ -413,6 +416,7 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
 
     #machining-grid .air-motor-model,
     #machining-grid .air-motor-media img,
+    #machining-grid .machining-project-model,
     #machining-grid .project-slideshow-large .slideshow-stage {
         height: 400px;
     }
@@ -444,6 +448,7 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
 @media (max-width: 480px) {
     #machining-grid .air-motor-model,
     #machining-grid .air-motor-media img,
+    #machining-grid .machining-project-model,
     #machining-grid .project-slideshow-large .slideshow-stage {
         height: 320px;
     }
@@ -457,6 +462,42 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
         font-size: 0.88rem;
     }
 }
+
+/* Titan and Shop Sign GLB beside their slideshows */
+
+#machining-grid .machining-model-slideshow-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 20px;
+    align-items: start;
+    width: 100%;
+}
+
+#machining-grid .machining-project-model {
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    border-radius: 8px;
+    background: #d9d9d9;
+}
+
+#machining-grid .machining-model-slideshow-row .project-slideshow {
+    min-width: 0;
+    margin-top: 0;
+}
+
+/*
+  Keeps the slideshow image/video area aligned with the model.
+  The controls remain underneath the slideshow.
+*/
+#machining-grid
+.machining-model-slideshow-row
+.project-slideshow-large
+.slideshow-stage {
+    height: 500px;
+}
+
 /* Secondary button */
 .btn-secondary {
     display: inline-block;

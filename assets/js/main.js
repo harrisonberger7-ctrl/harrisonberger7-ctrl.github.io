@@ -257,6 +257,18 @@ function renderMachiningProjects(container, projects) {
         </p>
       </div>
 
+      <div class="machining-model-slideshow-row">
+
+        <model-viewer
+          class="machining-project-model"
+          src="/assets/images/Titan-76M-Content/TITAN-76M.glb"
+          alt="Interactive 3D model of the Titan-76M component"
+          camera-controls
+          auto-rotate
+          shadow-intensity="1"
+          exposure="1">
+        </model-viewer>
+
       <div
         class="project-slideshow project-slideshow-large"
         data-slideshow="titan-76m">
@@ -361,6 +373,8 @@ function renderMachiningProjects(container, projects) {
 
       </div>
 
+    </div>
+
     </article>
 
 
@@ -374,6 +388,18 @@ function renderMachiningProjects(container, projects) {
           concept through setup, machining, finishing, and final assembly.
         </p>
       </div>
+
+      <div class="machining-model-slideshow-row">
+
+  <model-viewer
+    class="machining-project-model shop-sign-model"
+    src="/assets/images/Shop-Sign-Content/Machine_Shop_Sign.glb"
+    alt="Interactive 3D model of the Arts and Sciences Machine Shop sign"
+    camera-controls
+    auto-rotate
+    shadow-intensity="1"
+    exposure="1">
+  </model-viewer>
 
       <div
         class="project-slideshow project-slideshow-large"
@@ -503,8 +529,9 @@ function renderMachiningProjects(container, projects) {
 
       </div>
 
+    </div>
+
     </article>
-  `;
 
   container.appendChild(machiningSection);
 
