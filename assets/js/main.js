@@ -532,6 +532,7 @@ function renderMachiningProjects(container, projects) {
     </div>
 
     </article>
+  `;
 
   container.appendChild(machiningSection);
 
