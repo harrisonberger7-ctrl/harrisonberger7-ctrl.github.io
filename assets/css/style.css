@@ -264,7 +264,7 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     height: 500px;
     margin: 0;
     border-radius: 8px;
-    background: #d6d3d3;
+    background: #e6dddd;
 }
 
 #machining-grid .air-motor-media img {
@@ -479,7 +479,7 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
     height: 500px;
     margin: 0;
     border-radius: 8px;
-    background: #d6d3d3;
+    background: #e6dddd;
 }
 
 #machining-grid .machining-model-slideshow-row .project-slideshow {
