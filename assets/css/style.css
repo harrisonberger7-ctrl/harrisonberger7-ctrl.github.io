@@ -57,6 +57,7 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
   nav ul{display:none}
   #nav-toggle{display:inline-block}
 }
+}
 /* Scholarship Speech */
 
 .speech-section {
@@ -519,4 +520,35 @@ nav a:focus,nav a:hover{color:var(--panel);outline:2px solid transparent}
 
 .btn-secondary:active {
     transform: translateY(0);
+}
+.testing-card{
+    margin:2rem 0;
+    padding:2rem;
+    background:#fff;
+    border-radius:22px;
+    border:1px solid var(--dolly-line);
+    box-shadow:var(--dolly-shadow);
+}
+
+.testing-layout{
+    display:grid;
+    grid-template-columns:1.2fr 1fr;
+    gap:2rem;
+    align-items:center;
+}
+
+.testing-layout video{
+    width:100%;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.testing-layout h3{
+    margin-top:0;
+    font-size:2rem;
+}
+
+.testing-layout p{
+    color:var(--dolly-muted);
+    line-height:1.7;
 }

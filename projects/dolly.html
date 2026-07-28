@@ -316,28 +316,167 @@
       </div>
     </section>
 
-    <section class="section section-accent" aria-labelledby="iteration-title">
-      <div class="container media-text-grid">
-        <button class="image-button image-button-contained" type="button" data-full="/assets/images/Dolly_Content/gear-plate-failure.jpeg" data-alt="Damaged prototype gear plate showing a failed tooth during development">
-          <img src="/assets/images/Dolly_Content/gear-plate-failure.jpeg" alt="Damaged prototype gear plate showing a failed tooth during development" loading="lazy">
-          <span>Open prototype detail</span>
-        </button>
+<section class="section failure-solution-section" aria-labelledby="iteration-title">
+  <div class="container">
+
+    <div class="failure-solution-heading">
+      <div>
+        <p class="section-kicker">Failure analysis and redesign</p>
+
+        <h2 id="iteration-title">
+          Turning a drivetrain failure into a stronger mechanical solution
+        </h2>
+      </div>
+
+      <p class="section-intro">
+        Stair testing revealed that outward reaction forces at the
+        tri-wheel assemblies were spreading the lower frame and
+        concentrating load on the transmission gear. The redesign
+        addresses the source of that motion instead of only replacing
+        the damaged component.
+      </p>
+    </div>
+
+
+
+
+
+    <!-- Failure analysis -->
+    <article class="failure-analysis-card">
+
+      <div class="failure-card-label">
+        <span>01</span>
+        Diagnose the load path
+      </div>
+
+      <button
+        class="failure-infographic-button"
+        type="button"
+        data-full="/assets/images/Dolly_Content/Gear_Failure_Infographic.png"
+        data-alt="Engineering force diagram showing the vertical weight and outward reaction forces acting on the tri-wheel dolly while climbing stairs">
+
+        <img
+          src="/assets/images/Dolly_Content/Gear_Failure_Infographic.png"
+          alt="Engineering force diagram showing the vertical weight and outward reaction forces acting on the tri-wheel dolly while climbing stairs"
+          loading="lazy">
+
+        <span>Open force diagram</span>
+      </button>
+
+    </article>
+      <article class="testing-card">
+
+    <div class="failure-card-label">
+        <span>02</span>
+        Experimental Validation
+    </div>
+
+    <div class="testing-layout">
+
+        <video
+            controls
+            preload="metadata"
+            playsinline
+            poster="/assets/images/Dolly_Content/Gear_Failure_Infographic.png">
+
+            <source
+                src="/assets/videos/Dolly_Content/Weighted_Testing_video.mp4"
+                type="video/mp4">
+
+            Your browser does not support the video.
+
+        </video>
 
         <div>
-          <p class="section-kicker">Iteration and troubleshooting</p>
-          <h2 id="iteration-title">Learning from component failure</h2>
-          <p>
-            Prototype development included evaluating individual components after fabrication and use. The
-            damaged gear-plate component shown here documents a real design and manufacturing issue rather than
-            hiding it from the final project story.
-          </p>
-          <p>
-            Recording failures is valuable because it identifies where geometry, material thickness, loading,
-            or manufacturing details may need to be reconsidered in a later revision.
-          </p>
+
+            <h3>
+                Stair testing exposed the failure mechanism
+            </h3>
+
+            <p>
+                During repeated stair-climbing tests, the tri-wheel
+                assemblies spread outward under load. This motion
+                transferred excessive force into the transmission gear,
+                eventually producing accelerated wear and gear damage.
+            </p>
+
+            <p>
+                The observed behavior matched the predicted force path
+                shown in the engineering analysis and directly guided
+                the redesign effort.
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+    <div class="failure-to-solution" aria-hidden="true">
+      <span></span>
+      <strong>Design response</strong>
+      <span></span>
+    </div>
+
+    <!-- Redesigned solution -->
+    <article class="solution-card">
+
+      <button
+        class="solution-image-button"
+        type="button"
+        data-full="/assets/images/Dolly_Content/Gear_Failure_Solution.jpeg"
+        data-alt="Close-up of the added aluminum stop feature beside the dolly tri-wheel gear assembly">
+
+        <img
+          src="/assets/images/Dolly_Content/Gear_Failure_Solution.jpeg"
+          alt="Close-up of the added aluminum stop feature beside the dolly tri-wheel gear assembly"
+          loading="lazy">
+
+        <span>Open solution detail</span>
+      </button>
+
+      <div class="solution-copy">
+
+        <div class="failure-card-label">
+          <span>03</span>
+          Constrain outward motion
+        </div>
+
+        <h3>
+          Added mechanical stop protects the gear train
+        </h3>
+
+        <p>
+          A machined stop feature was added beside the tri-wheel assembly
+          to physically limit lateral spreading under stair-climbing
+          loads. By reacting the outward force through a rigid structural
+          feature, the revised assembly reduces bending and tooth load at
+          the transmission gear.
+        </p>
+
+        <div class="solution-results" aria-label="Redesign benefits">
+
+          <div>
+            <strong>Failure mode</strong>
+            <span>Wheel assemblies spread apart under load.</span>
+          </div>
+
+          <div>
+            <strong>Design change</strong>
+            <span>Rigid stop limits outward displacement.</span>
+          </div>
+
+          <div>
+            <strong>Expected result</strong>
+            <span>Lower gear stress and improved durability.</span>
+          </div>
+
         </div>
       </div>
-    </section>
+
+    </article>
+
+  </div>
+</section>
 
     <section class="section" aria-labelledby="outcomes-title">
       <div class="container">
