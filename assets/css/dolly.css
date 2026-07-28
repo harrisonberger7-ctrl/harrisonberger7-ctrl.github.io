@@ -545,6 +545,20 @@ p { line-height: 1.72; }
   min-height: 0;
   max-height: 700px;
 }
+.testing-layout {
+  grid-template-columns: 1fr;
+}
+
+.testing-layout > video {
+  height: auto;
+  min-height: 0;
+}
+
+.failed-gear-image {
+  height: auto;
+  min-height: 0;
+  max-height: 600px;
+}
 }
 
 @media (max-width: 650px) {
@@ -593,4 +607,48 @@ p { line-height: 1.72; }
     height: 1100px;
     object-fit: cover;
     border-radius: 4px;
+}
+.testing-layout {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.testing-layout > video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+  object-fit: cover;
+  background: #080b0e;
+  border-radius: 14px;
+}
+
+.testing-right-column {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 1.25rem;
+  min-width: 0;
+}
+
+.testing-copy {
+  padding: 0.5rem 0.25rem 0;
+}
+
+.testing-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.failed-gear-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  max-height: 390px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 14px;
 }
