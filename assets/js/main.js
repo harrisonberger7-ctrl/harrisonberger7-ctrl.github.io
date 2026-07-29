@@ -246,137 +246,7 @@ function renderMachiningProjects(container, projects) {
     </article>
 
 
-    <article class="card machining-feature-card">
-
-      <div class="machining-project-heading">
-        <h2>Titan-76M</h2>
-
-        <p>
-          Chronological machining progress from the first operation
-          through the completed component.
-        </p>
-      </div>
-
-      <div class="machining-model-slideshow-row">
-
-        <model-viewer
-          class="machining-project-model"
-          src="/assets/images/Titan-76M-Content/TITAN-76M.glb"
-          alt="Interactive 3D model of the Titan-76M component"
-          camera-controls
-          auto-rotate
-          shadow-intensity="1"
-          exposure="1">
-        </model-viewer>
-
-      <div
-        class="project-slideshow project-slideshow-large"
-        data-slideshow="titan-76m">
-
-        <div class="slideshow-stage">
-
-          <figure class="slideshow-slide active">
-            <video
-              controls
-              preload="metadata"
-              playsinline>
-              <source
-                src="/assets/images/Titan-76M-Content/Titan_76M_OP1_Roughing_Video.mp4"
-                type="video/mp4">
-              Your browser does not support this video.
-            </video>
-
-            <figcaption>
-              1. Operation 1 rough machining
-            </figcaption>
-          </figure>
-
-          <figure class="slideshow-slide">
-            <img
-              src="/assets/images/Titan-76M-Content/Titan_76M_OP1_Finished.jpeg"
-              alt="Titan-76M after completion of operation 1">
-
-            <figcaption>
-              2. Operation 1 completed
-            </figcaption>
-          </figure>
-
-
-          <figure class="slideshow-slide">
-            <video
-              controls
-              preload="metadata"
-              playsinline>
-              <source
-                src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Roughing_Video.mp4"
-                type="video/mp4">
-              Your browser does not support this video.
-            </video>
-
-            <figcaption>
-              3. Operation 2 rough machining
-            </figcaption>
-          </figure>
-
-
-          <figure class="slideshow-slide">
-            <img
-              src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Roughed.jpeg"
-              alt="Titan-76M during operation 2 rough machining">
-
-            <figcaption>
-              4. Operation 2 rough-machined condition
-            </figcaption>
-          </figure>
-
-          <figure class="slideshow-slide">
-            <img
-              src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Finished.jpeg"
-              alt="Titan-76M after completion of operation 2">
-
-            <figcaption>
-              5. Operation 2 completed
-            </figcaption>
-          </figure>
-
-          <figure class="slideshow-slide">
-            <img
-              src="/assets/images/Titan-76M-Content/Titan_76M_Finished.jpeg"
-              alt="Completed Titan-76M component">
-
-            <figcaption>
-              6. Finished Titan-76M component
-            </figcaption>
-          </figure>
-
-        </div>
-
-        <div class="slideshow-controls">
-          <button
-            class="slideshow-button slideshow-previous"
-            type="button"
-            aria-label="Show previous Titan-76M slide">
-            &#10094; Previous
-          </button>
-
-          <span class="slideshow-counter" aria-live="polite">
-            1 / 6
-          </span>
-
-          <button
-            class="slideshow-button slideshow-next"
-            type="button"
-            aria-label="Show next Titan-76M slide">
-            Next &#10095;
-          </button>
-        </div>
-
-      </div>
-
-    </div>
-
-    </article>
-
+      
 
     <article class="card machining-feature-card">
 
@@ -532,6 +402,140 @@ function renderMachiningProjects(container, projects) {
     </div>
 
     </article>
+
+
+
+    <article class="card machining-feature-card">
+
+      <div class="machining-project-heading">
+        <h2>Titan-76M</h2>
+
+        <p>
+          Chronological machining progress from the first operation
+          through the completed component.
+        </p>
+      </div>
+
+      <div class="machining-model-slideshow-row">
+
+        <model-viewer
+          class="machining-project-model"
+          src="/assets/images/Titan-76M-Content/TITAN-76M.glb"
+          alt="Interactive 3D model of the Titan-76M component"
+          camera-controls
+          auto-rotate
+          shadow-intensity="1"
+          exposure="1">
+        </model-viewer>
+
+      <div
+        class="project-slideshow project-slideshow-large"
+        data-slideshow="titan-76m">
+
+        <div class="slideshow-stage">
+
+          <figure class="slideshow-slide active">
+            <video
+              controls
+              preload="metadata"
+              playsinline>
+              <source
+                src="/assets/images/Titan-76M-Content/Titan_76M_OP1_Roughing_Video.mp4"
+                type="video/mp4">
+              Your browser does not support this video.
+            </video>
+
+            <figcaption>
+              1. Operation 1 rough machining
+            </figcaption>
+          </figure>
+
+          <figure class="slideshow-slide">
+            <img
+              src="/assets/images/Titan-76M-Content/Titan_76M_OP1_Finished.jpeg"
+              alt="Titan-76M after completion of operation 1">
+
+            <figcaption>
+              2. Operation 1 completed
+            </figcaption>
+          </figure>
+
+
+          <figure class="slideshow-slide">
+            <video
+              controls
+              preload="metadata"
+              playsinline>
+              <source
+                src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Roughing_Video.mp4"
+                type="video/mp4">
+              Your browser does not support this video.
+            </video>
+
+            <figcaption>
+              3. Operation 2 rough machining
+            </figcaption>
+          </figure>
+
+
+          <figure class="slideshow-slide">
+            <img
+              src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Roughed.jpeg"
+              alt="Titan-76M during operation 2 rough machining">
+
+            <figcaption>
+              4. Operation 2 rough-machined condition
+            </figcaption>
+          </figure>
+
+          <figure class="slideshow-slide">
+            <img
+              src="/assets/images/Titan-76M-Content/Titan_76M_OP2_Finished.jpeg"
+              alt="Titan-76M after completion of operation 2">
+
+            <figcaption>
+              5. Operation 2 completed
+            </figcaption>
+          </figure>
+
+          <figure class="slideshow-slide">
+            <img
+              src="/assets/images/Titan-76M-Content/Titan_76M_Finished.jpeg"
+              alt="Completed Titan-76M component">
+
+            <figcaption>
+              6. Finished Titan-76M component
+            </figcaption>
+          </figure>
+
+        </div>
+
+        <div class="slideshow-controls">
+          <button
+            class="slideshow-button slideshow-previous"
+            type="button"
+            aria-label="Show previous Titan-76M slide">
+            &#10094; Previous
+          </button>
+
+          <span class="slideshow-counter" aria-live="polite">
+            1 / 6
+          </span>
+
+          <button
+            class="slideshow-button slideshow-next"
+            type="button"
+            aria-label="Show next Titan-76M slide">
+            Next &#10095;
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+    </article>
+
   `;
 
   container.appendChild(machiningSection);
